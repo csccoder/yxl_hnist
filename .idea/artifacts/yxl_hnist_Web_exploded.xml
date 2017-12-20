@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="yxl_hnist:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/yxl_hnist_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="yxl_hnist/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="yxl_hnist" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="JUnit4" module-name="yxl_hnist" />
+          <element id="library" level="project" name="jackson-annotations-2.2.1" />
+          <element id="file-copy" path="$PROJECT_DIR$/servlet-api-2.5.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

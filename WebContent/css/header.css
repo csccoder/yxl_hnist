@@ -1,0 +1,318 @@
+﻿.new-header {
+    background: #3169b0;
+    height: 70px;
+    transition: all .3s ease-in-out 0s;
+    position: relative;
+    z-index: 9
+}
+
+.new-header .wrapper {
+    width: 1170px;
+    margin: 0 auto
+}
+
+.new-header .logo {
+    float: left;
+    display: inline;
+    margin-top: 20px
+}
+
+.new-header .nav {
+    margin-left: 10px;
+    float: left;
+    display: inline
+}
+
+.new-header .nav li {
+    float: left;
+    display: inline;
+    position: relative
+}
+
+.new-header .nav .tit {
+    position: relative;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 16px;
+    display: block
+}
+
+.new-header .nav .tit.isNew .newBrand {
+    position: absolute;
+    width: 31px;
+    height: 13px;
+    top: 13px;
+    left: 50%;
+    margin-left: 10px;
+    background-image: url(../../images/question_list/nav_new.png)
+}
+
+.new-header .nav .tit-more {
+    background: url(../../images/question_list/img18.png) no-repeat right center;
+    padding-right: 35px !important
+}
+
+.new-header .nav li.selected .tit, .new-header .nav li .tit:hover {
+    background-color: #285690;
+    text-decoration: none
+}
+
+.new-header .nav dl {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 110px;
+    background: #285690;
+    display: none
+}
+
+.new-header .nav dd {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px
+}
+
+.new-header .nav dd a {
+    color: #fff;
+    display: block;
+    padding-left: 20px
+}
+
+.new-header .nav dd a:hover {
+    background: #1b457a
+}
+
+.new-header .sear {
+    height: 30px;
+    margin-top: 20px;
+    float: right;
+    display: inline;
+    border-radius: 15px;
+    background: url(../../images/question_list/img35.png) repeat
+}
+
+.new-header .sear-selected {
+    background: url(../../images/question_list/img34.png) repeat
+}
+
+.new-header .sear .text {
+    width: 50px;
+    height: 30px;
+    border: none;
+    margin-left: 21px;
+    background: 0 0;
+    color: #a4bad8;
+    font-size: 14px;
+    float: left;
+    display: inline;
+    transition: all .3s ease-in-out 0s
+}
+
+.new-header .sear .text::-webkit-input-placeholder {
+    color: #a4bad8
+}
+
+.new-header .sear .text:-ms-input-placeholder {
+    color: #a4bad8
+}
+
+.new-header .sear input {
+    outline: 0
+}
+
+.new-header .sear .submit {
+    background: url(../../images/question_list/img1.png) no-repeat center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer
+}
+
+.new-header .sear-selected .text {
+    color: #444;
+    width: 120px
+}
+
+.new-header .sear-selected .text::-webkit-input-placeholder {
+    color: #444
+}
+
+.new-header .sear-selected .submit {
+    background-image: url(../../images/question_list/img36.png)
+}
+
+.new-header .info {
+    float: right;
+    display: inline
+}
+
+.new-header .info li {
+    float: left;
+    display: inline;
+    position: relative
+}
+
+.new-header .info li .tit {
+    color: #fff;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    font-size: 16px;
+    padding: 0 10px
+}
+
+.new-header .info li .tit .userimage {
+    vertical-align: middle;
+    border-radius: 50%
+}
+
+.new-header .info li.selected .tit, .new-header .info li .tit:hover {
+    background: #285690
+}
+
+.new-header .info li .tit sup {
+    width: 8px;
+    height: 8px;
+    background: #c82b16;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    right: -3px
+}
+
+.new-header .info li .sub {
+    position: absolute;
+    left: -95px;
+    top: 70px;
+    width: 240px;
+    background: #fff;
+    display: none
+}
+
+.new-header .info li .sub.userinfo {
+    position: absolute;
+    left: -35px;
+    top: 70px;
+    width: 120px;
+    background: #fff;
+    display: none
+}
+
+.new-header .info li .sub.userinfo dd a {
+    padding-left: 30px
+}
+
+.new-header .info li.selected .sub {
+    display: block
+}
+
+.new-header .info li .sub dl {
+    margin-top: 5px;
+    border: #eaeaea solid 1px;
+    box-shadow: #ccc 0 0 5px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden
+}
+
+.new-header .info li .sub .arrow {
+    background: url(../../images/question_list/img2.png) no-repeat;
+    width: 29px;
+    height: 18px;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    top: -18px;
+    z-index: 9
+}
+
+.new-header .info li .sub dd {
+    border-bottom: #eee solid 1px;
+    font-size: 14px;
+    padding: 0
+}
+
+.new-header .info li .sub dd.last, .new-header .info li .sub dd:last-child {
+    border-bottom: 0;
+    border-radius: 0 0 5px 5px
+}
+
+.new-header .info li .sub dd.last a, .new-header .info li .sub dd:last-child a {
+    border-radius: 0 0 5px 5px
+}
+
+.new-header .info li .sub dd:first-child a {
+    border-radius: 5px 5px 0 0
+}
+
+.new-header .info li .sub dd a {
+    height: 45px;
+    line-height: 45px;
+    color: #666;
+    display: block;
+    padding-left: 10px
+}
+
+.new-header .info li .sub dd a:hover, .new-header .info li .sub dd.selected a {
+    background: #5378a6;
+    color: #fff
+}
+
+.new-header .msg {
+    float: right;
+    display: inline
+}
+
+.new-header .msg a {
+    background: url(../../images/question_list/img32.png) no-repeat center;
+    width: 20px;
+    height: 70px;
+    display: block
+}
+
+.new-header .user-img {
+    float: right;
+    display: inline;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-left: 10px
+}
+
+.new-header .reg {
+    float: right;
+    display: inline;
+    font-size: 15px;
+    line-height: 70px;
+    color: #fff;
+    margin-left: 60px
+}
+
+.new-header .reg li {
+    display: inline;
+    float: left;
+    margin: 0 7px
+}
+
+.new-header .reg a {
+    color: #fff
+}
+
+.new-header .reg span.line {
+    height: 15px;
+    width: 1px;
+    display: inline-block;
+    background: #a8bedb;
+    position: relative;
+    top: 2px
+}
+
+.new-header a {
+    font-family: "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased
+}
